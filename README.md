@@ -12,7 +12,7 @@
 > add_ace group.admin perm.admin allow
 > 
 > # Add an admin-only chat!
-> addAclChat {
+> Adminchat {
 >     "name": "Admin Chat",
 >     "color": "#ff9900",
 >     "prefix": "^#ff9900ADMIN ^7| ^#ff00ff",
