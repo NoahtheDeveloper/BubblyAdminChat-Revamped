@@ -1,6 +1,6 @@
 local modeId = 1
 
-RegisterCommand('addAclChat', function(source, args)
+RegisterCommand('Adminchat', function(source, args)
 	local object = json.decode(args[1])
 	modeId += 1
 	
@@ -20,5 +20,5 @@ RegisterCommand('addAclChat', function(source, args)
 		end
 	})
 	
-	print('^3[bubblyRestrictedChat] added ACL chat: ^2' .. object.name .. '^7')
+	print('^1[^0Admin Chat^1] ^0added an chat: ^1' .. object.name .. '^1')
 end, true)
